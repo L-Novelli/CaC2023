@@ -35,3 +35,5 @@
 #### | [LinkedIn | Romina Antagli](https://www.linkedin.com/in/romina-antagli-8690b4a/) | 
 #### | [GitHub | Romina Antagli](https://github.com/RominaAnta) |
 
+#### | [LinkedIn | Florencia B. Hidalgo](https://www.linkedin.com/in/hidalgoflorenciabelen) | 
+#### | [GitHub | Florencia B. Hidalgo](https://github.com/hidalgoflorencia) |
