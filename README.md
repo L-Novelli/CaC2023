@@ -37,3 +37,6 @@
 
 #### | [LinkedIn | Florencia B. Hidalgo](https://www.linkedin.com/in/hidalgoflorenciabelen) | 
 #### | [GitHub | Florencia B. Hidalgo](https://github.com/hidalgoflorencia) |
+
+#### | [LinkedIn | Noah Cassuti](https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/) | 
+#### | [GitHub | Noah Cassuti](https://github.com/noahcassutti) |
