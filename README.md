@@ -32,3 +32,11 @@
 #### | [LinkedIn | Lautaro Novelli](https://www.linkedin.com/in/l-novelli/) | 
 #### | [GitHub | Lautaro Novelli](https://github.com/L-Novelli/) |
 
+#### | [LinkedIn | Romina Antagli](https://www.linkedin.com/in/romina-antagli-8690b4a/) | 
+#### | [GitHub | Romina Antagli](https://github.com/RominaAnta) |
+
+#### | [LinkedIn | Florencia B. Hidalgo](https://www.linkedin.com/in/hidalgoflorenciabelen) | 
+#### | [GitHub | Florencia B. Hidalgo](https://github.com/hidalgoflorencia) |
+
+#### | [LinkedIn | Noah Cassuti](https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/) | 
+#### | [GitHub | Noah Cassuti](https://github.com/noahcassutti) |
