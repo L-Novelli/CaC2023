@@ -9,18 +9,10 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
     <link rel="canonical" href="https://icons.getbootstrap.com/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
-    <title>{% block title %}  {% endblock %}</title>
+    <title> Inicio </title>
 </head>
 
 <body>
-
-    <!-- Romina -->
-    <!-- Romina2 -->
-
-    <!-- hola -->
-    
-
-     <!-- Teste admin 1 -->
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -39,23 +31,6 @@
     
               <div class="collapse navbar-collapse" id="navbarExample01">
                 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
-                      
-                    {% if request.user.is_authenticated %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="/gaming">Gaming</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/crypto">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/coding">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/anime">Contact</a>
-                    </li>
-                </ul>
-                    {% endif %}
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">     
                     <li class="nav-item">
                         <a class="nav-link" href="/">
@@ -64,49 +39,124 @@
                         </a>
                     </li>
                 </ul>
-                {% if request.user.is_authenticated %}
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">          
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
+                      
+                    {% if request.user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">About Us</a>
+                        <a class="nav-link" href="/gaming">Inicio</a>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/crypto">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/coding">Nuetros Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/anime">Contacto</a>
+                    </li>
+                </ul>
                     {% endif %}
+                
+                
                 </ul>
                 
             </div>
         </nav>
-        <div
-            class="p-5 text-center bg-image"
-            style="
-            background-image: url('https://funpir.com/wp-content/uploads/2022/08/7a093e60-2.webp');
-            height: 400px;
-            margin-top: 58px;
-            "
-        >
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-                <div class="text-center">
-                <div class="text-white">
-                    <h4 class="mb-3">Hi there!</h1>
-                    
-                    
-                    {% if not request.user.is_authenticated %}
-
-                    <a class="btn btn-outline-light btn-lg" href="/login" role="button"
-                    >Login</a>
-                    <a class="btn btn-outline-light btn-lg" href="/signup" role="button"
-                    >SignUp</a>
-
-                    {% endif %}
-                  
-                </div>
-                </div>
-            </div>
-            </div>
+        <div>
+            
+        </div>
+        </div>
 
     </header>
 
     {% block content %}
-        
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                    body {
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin: 0;
+                    }
+    
+                    html {
+                    box-sizing: border-box;
+                    }
+    
+                    *, *:before, *:after {
+                    box-sizing: inherit;
+                    }
+    
+                    .column {
+                    float: center;
+                    width: 33.3%;
+                    margin-bottom: 16px;
+                    padding: 0 8px;
+                    }
+    
+                    .card {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    margin: 8px;
+                    float: none;
+                    }
+    
+                    .about-section {
+                    padding: 50px;
+                    text-align: center;
+                    background-color: #474e5d;
+                    color: white;
+                    }
+    
+                    .container {
+                    padding: 0 16px;
+                    }
+    
+                    .container::after, .row::after {
+                    content: "";
+                    clear: both;
+                    display: table;
+                    }
+    
+                    .title {
+                    color: grey;
+                    }
+    
+                    .button {
+                    border: none;
+                    outline: 0;
+                    display: inline-block;
+                    padding: 8px;
+                    color: white;
+                    background-color: #000;
+                    text-align: center;
+                    cursor: pointer;
+                    width: 100%;
+                    }
+    
+                    .button:hover {
+                    background-color: #555;
+                    }
+    
+                    @media screen and (max-width: 400px) {
+                    .column {
+                        width: 100%;
+                        display: block;
+                    }
+                    }
+                </style>
+        </head>
+    <body>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+            <img src="/resources/frontpage.png"width:100%">
+        </div>
+    </div>
         
     {% endblock %}
 
