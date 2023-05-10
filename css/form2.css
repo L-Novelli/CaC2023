@@ -1,12 +1,14 @@
 #signup-form label {
-    display: block;
-    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    justify-content:center;
+    display: flex;
   }
   
   #signup-form input[type="text"],
   #signup-form input[type="email"],
   #signup-form input[type="comment"] {
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 20px;
     width: 100%;
     border-radius: 5px;
@@ -21,9 +23,10 @@
     background-color: #1e90ff;
     color: #fff;
     cursor: pointer;
+    
   }
   
   #signup-form button[type="submit"]:hover {
-    background-color: #0066cc;
+    background-color: #0059ff;
   }
   
