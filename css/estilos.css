@@ -216,37 +216,4 @@ nav {
     background-color:#ED3942;
   }
 }
-#signup-form label {
-    margin-top: 100px;
-    margin-bottom: 20px;
-    justify-content:center;
-    display: flex;
-  }
-  
-  #signup-form input[type="text"],
-  #signup-form input[type="email"],
-  #signup-form input[type="comment"] {
-    padding: 10px;
-    width: 75%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    justify-content:center;
-    display: flex;
-  }
-  
-  #signup-form button[type="submit"] {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: #1e90ff;
-    color: #fff;
-    cursor: pointer;
-    justify-content:center;
-    
-  }
-  
-  #signup-form button[type="submit"]:hover {
-    background-color: #0059ff;
-  }
-  
+

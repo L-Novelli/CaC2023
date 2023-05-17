@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Estilos CSS -->
-    <link rel="stylesheet" href="/css/form2.css" />
+    <link rel="stylesheet" href="/css/estilos.css" />
 
     <!-- Favicons -->
     <link
@@ -46,30 +46,37 @@
     <!-- Barra de Navegación -->
     <header>
        <nav>
-        <img src="img/logo.jpeg" alt="Logo Akuma">
+        <img src="/img/logo.jpeg" alt="Logo Akuma">
         <ul class="navegacion">
             <li><a href="/templates/Inicio.html" class="nav-link">Inicio</a></li>
             <li><a href="#Quienes Somos" class="nav-link">Quienes somos</a></li>
             <li><a href="#Nuestros trabajos" class="nav-link">Nuestros trabajos</a></li>
-            <li><a href="#Contacto" class="nav-link">Contacto</a></li>
+            <li><a href="/templates/form2.html" class="nav-link">Contacto</a></li>
           </ul>
        </nav>
     </header>
     <!-- Sección Hero  -->
 
     <main>
-        <form id="signup-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="Comment">Comment:</label>
-            <input type="comment" id="comment" name="comment" required>
-            
-            <button type="submit">Sign Up</button>
-          </form>
+      <section class="hero" id="about">
+        <img src="/img/Star Wars.jpeg" alt="Akuma" loading="lazy" class="hero-img"/>
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-titulo">Akuma 3D</h2>
+          <p class="bio-texto">
+            Es un emprendimiento de impresiones 3D sobre recina.
+          </p>
+        </div>
+      </section>
+ 
+      <section class="hero" id="about">
+        <div class="bio animate__animated animate__shakeX">
+         <h2 class="bio-titulo">Aqui podras encontrar...</h2>
+          <p class="bio-texto">
+          Productos finalizados, pedir cotizaciones, solicitar piezas de prototipado rápido de alta definición y mucho más!
+          </p>
+        </div>
+         <img src="/img/Estatua fosforecente.jpeg" alt="Akuma" loading="lazy" class="hero-img"/>
+      </section>
     </main>
     <!-- Sección de redes sociales -->
    <footer>
@@ -78,9 +85,9 @@
           ><img src="/img/facebook.png" alt="Facebook" loading="lazy" class="socicon"/></a>
         <a href="#" target="_blank"
           ><img src="/img/instagram.png" alt="Instagram" loading="lazy" class="socicon"/></a>
-        <a href="#" target="_blank"
-          ><img src="/img/linkedin.png" alt="Linkedin" loading="lazy" class="socicon"/></a>
         <a href="https://www.instagram.com/akuma.ar/" target="_blank"
+          ><img src="/img/linkedin.png" alt="Linkedin" loading="lazy" class="socicon"/></a>
+        <a href="#" target="_blank"
           ><img src="/img/github.png" alt="Github" class="socicon"/></a>
 
       
@@ -88,4 +95,3 @@
 
   </body>
 </html>
-       
