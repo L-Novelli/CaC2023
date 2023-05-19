@@ -1,0 +1,184 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* CSS Resets */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  body {
+      font-family: 'PT Serif', serif;
+  }
+  
+  nav {
+      position: sticky;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 3.5rem;
+      background-color: black;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+      font-family: 'Acme', sans-serif;
+      font-size: larger;
+    }
+  
+    nav img {
+      height: 7rem;
+      width: 7rem;
+      margin: 0%;
+    }
+    nav h1 {
+      color:black;
+      font-family: 'Lobster', cursive;
+      background-color:  black;
+    }
+    
+    nav a {
+      color: #F3C8B8;
+      transition: 0.3s;
+      background-color: black;
+    }
+    nav a:hover {
+      color: #ED3942;
+      border-bottom: rgba(125, 40, 165, 100);
+    }
+    
+    nav ul {
+      display: flex;
+      gap: 1.9rem;
+      background-color: black;
+    }
+    
+    nav ul li {
+      font-weight: 700;
+    }
+  
+    main {
+      background-color: #58585A;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+    }
+      
+    .presentacion,.presentacion_texto {
+        width: 50%;
+        margin: 0 auto;
+        padding: 40px;
+        
+      }
+      
+
+    .presentacion {
+        text-align: center;
+        padding: 200px;
+        
+      }
+      
+    .presentacion_texto{
+        text-align: left;
+        box-shadow: 0 0 8px 2px rgba(53, 45, 45, 0.5);
+      }
+    .ubicacion {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 200px;
+    }
+      
+      
+ 
+  
+    .sociales {
+      flex-direction: row;
+      text-align: center;
+      bottom: 50%;
+      margin: 2rem 6rem 0;
+      padding: 1.25rem;
+      position: relative;
+      background-color:#ED3942;
+    }
+    
+    .socicon {
+      width: 2rem;
+      height: 2rem;
+      margin: 20px;
+      background-color:#ED3942;
+    }
+  
+    footer {
+      text-align: center;
+      text-decoration: solid;
+      z-index: 1;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 3.5rem;
+      background-color: #ED3942;
+     }
+  
+    a{
+      background-color:#ED3942;
+    }
+  
+  @media only screen and (max-width: 600px) {
+      nav{
+        font-size: medium;
+      }
+  
+      footer{
+        padding: 0.8rem 0rem; 
+      }
+  
+      nav img {
+        height: 5rem;
+        width: 5rem;
+        margin: 0%;
+      } 
+  
+   }
+  
+  
+   
+  @media only screen and (min-width: 1200px)  {
+  
+    .sociales {
+      flex-direction: row;
+      text-align: center;
+      bottom: 50%;
+      margin: 2rem 6rem 0;
+      padding: 1.25rem;
+      position: relative;
+      background-color:#ED3942;
+    }
+    
+    .socicon {
+      width: 2.7rem;
+      height: 2.7rem;
+      margin: 30px;
+      background-color:#ED3942;
+    }
+  }
+  
