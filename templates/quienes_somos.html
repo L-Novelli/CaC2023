@@ -40,6 +40,13 @@
       <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <title>Quienes somos</title>
+      
+     
+     <!-- icono -->
+      <link rel="icon" href="/img/icono_nav.PNG" type="image/x-icon">
+
+  
+
   </head>
   <body>
     <!-- Barra de Navegación -->
@@ -53,6 +60,9 @@
             <li><a href="/templates/form2.html" class="nav-link">Contacto</a></li>
           </ul>
        </nav>
+
+    
+
     </header>
     <!-- Sección Quienes somos  -->
     <main>
@@ -76,8 +86,10 @@
          
         </div>
         <div class="box4">
-          <p class="ubicacion_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eum officia, maxime exercitationem sit fuga quis praesentium eius sapiente distinctio. 
-            Adipisci tempore et eveniet eaque corrupti quasi ducimus porro eligendi.</p>
+        
+          <div id="map">
+              <!-- Ubicacion del mapa -->
+          </div>
         </div>
         <div class="box5">
           <h2>Nosotros</h2>
@@ -117,6 +129,10 @@
         </div> -->
       </section> 
     </main>
+     <!--    JavaScript    -->
+     <script src="/js/api.js"></script>
+     <!-- API Goolge Maps -->
+     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj1hLz6XVA0yyKQO1yeofk87myift0264&callback=initMap"></script>
      
      
       
