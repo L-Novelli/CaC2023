@@ -1,0 +1,467 @@
+*{
+    background-color: #0f0409;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif
+    
+ }
+
+ body{
+    margin: 0px;
+    display: grid;
+ }
+
+ main{
+    justify-content: center;
+    padding: 5% 15px ;
+    margin: 0px 0px;
+ }
+.contenido{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.menu{
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid red;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    background-color: #0f0409;
+    color: red;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 4;
+}
+
+.logo{
+    padding-left: 0px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.paginas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 16px;
+    padding: 0em 3em;
+    align-items: center;
+    margin: 0px;
+    -webkit-box-align: center;
+    font-size: 14px;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    max-width: 500px;
+}
+
+.texto{
+    border-left: 4px solid currentcolor;
+    margin-left: 0px;
+    padding-left: 32px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.p{
+    color: red;
+    background-color: #0f0409;
+    padding: 16px;
+    outline: currentcolor solid 1px;
+    display: grid;
+    margin: 0 15% 40px;
+   
+}
+
+.inicio , .nosotros , .trabajos , .contacto{
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.inicio:hover , .contacto:hover , .trabajos:hover , .nosotros:hover{
+    color: ghostwhite;
+    transition: color .5s;
+}
+
+/* Inicio section productos destacados */
+
+section {
+    padding: 40px 20px;
+}
+
+section h3 {
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    color: red;
+}
+
+/* body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: #0f0409;
+} */
+
+h4, h2, small, a {
+    margin: 0;
+    padding: 0;
+    background: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.carousel {
+    /* height: 100vh; */
+    width: 100%;
+    align-items: center;
+
+}
+
+@media(min-width:768px) {
+    .carousel{
+        margin: 0px 60px;
+    }
+}
+
+.carousel h2 {
+    font-size: 45px;
+    line-height: 38px;
+    padding-bottom: 50px;
+    opacity: -9;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    color: #0f0409;
+}
+
+.carrusel-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 82vw;
+    overflow: hidden;
+}
+
+.carrusel-track {
+ position: relative;
+ top: 0;
+ left: 0;
+ display: flex;
+ justify-content: center;
+ transition: .5s ease-in-out;
+}
+
+.carrusel {
+    position: relative;
+    width: 210px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+
+.carrusel h4 {
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #0f0409;
+    padding: 15px;
+}
+
+.carrusel h4 small {
+    font-size: 15px;
+    display: block;
+    color: #0f0409;
+}
+
+.carrusel a img {
+    object-fit: cover;
+    height: 280px;
+    width: 190px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 darkred;
+    transition: .3s ease-in-out;
+}
+
+@media(min-width:768px) {
+    .carousel{
+        width: 250px;
+    }
+    /* .carousel a img {
+        width: 230px;
+    } */
+}
+
+.carrusel-arrow {
+    border-radius: 30px;
+    background-color: #0f0409;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.carrusel-arrow:focus{
+    outline: 0;
+}
+
+.carrusel-arrow svg {
+    width: 12px;
+    height: 100%;
+    color: gray;
+}
+
+.carrusel-prev {
+    left: 0px;
+}
+
+.carrusel-next {
+    right: 0px;
+}
+/* Fin CSS section productos destacados */
+
+
+/* Inicio seccion galeira de imagenes */
+
+input{
+    display: none;
+
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+.top-content{
+    background-color: #0f0409;
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px darkred;
+}
+
+.h3-galeria{
+    height: 100%;
+    background-color: red;
+    line-height: 60px;
+    padding: 0 50px;
+    color: #0f0409;
+    border-radius: 5px;
+}
+
+label{
+    display: inline-block;
+    height: 100%;
+    margin: 0 20px;
+    line-height: 60px;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+    transition: color .5s;
+}
+
+label:hover{
+    color: lightgray;
+}
+
+.galeria-fotos{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.pic{
+    position: relative;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px darkred;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;  
+}
+
+.pic::before{
+   /* content:"GALERIA" ; */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+   color: ghostwhite;
+   font-size: 22px;
+   font-weight: bold;
+   width: 100%;
+   margin-top: -100px;
+   opacity: 0;
+   transition: .3s;
+   transition-delay: .2s;
+   z-index: 1;
+
+}
+
+.uno::before {
+    content: "Baby Yoda";
+}
+.dos::before {
+    content: "Eva 01";
+}
+.tres::before {
+    content: "Ayanami Rei";
+}
+.cuatro::before {
+    content: "Darth Vader";
+}
+.cinco::before {
+    content: "Jabonera Sustentable";
+}
+.seis::before {
+    content: "Holder para Cascos";
+}
+.siete::before {
+    content: "Runa Berserk";
+}
+.ocho::before {
+    content: "Kaonashi";
+}
+.nueve::before {
+    content: "Master Chief Keycap";
+}
+.diez::before {
+    content: "Nerv Keycap";
+}
+.once::before {
+    content: "Dragon Articulable";
+}
+.doce::before {
+    content: "Doom Slayer";
+}
+
+.pic::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: .3s;
+
+}
+
+.pic:hover::after{
+    height: 100%;
+}
+.pic:hover::before{
+    margin-top: 0;
+    opacity: 1;
+}
+
+#check1:checked ~ .container .galeria-fotos .pic{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s;
+}
+
+#check2:checked ~ .container .galeria-fotos .cat-uno{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+#check2:checked ~ .container .galeria-fotos .cat-dos, 
+#check2:checked ~ .container .galeria-fotos .cat-tres{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0s;
+
+}
+
+#check3:checked ~ .container .galeria-fotos .cat-dos{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+#check3:checked ~ .container .galeria-fotos .cat-uno, 
+#check3:checked ~ .container .galeria-fotos .cat-tres{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s;
+}
+
+
+#check4:checked ~ .container .galeria-fotos .cat-tres{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+#check4:checked ~ .container .galeria-fotos .cat-uno, 
+#check4:checked ~ .container .galeria-fotos .cat-dos{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: .0s;
+
+}
+
+/* Fin section galeria de imagenes */
+
+
+/* Inicio footer */
+
+/* footer{
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    font-weight: 400;
+    background-color: #0f0409;
+}
+
+footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: red;
+}
+
+.social{
+    height: 20px;
+} */
+
+
+
+
