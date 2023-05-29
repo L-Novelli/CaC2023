@@ -4,14 +4,14 @@
 ## **Akuma 3D web**
   - Akuma 3D es una pagina web del emprendimiento de impresines 3D sobre recina. En esta pagina web se puede ver productos finalizados, pedir cotizaciones, solicitar piezas de prototipado rapido de alta definicion y mucho mas!
   
-  - Deploy: TBA
+  - Deploy: [akuma3d](https://akuma3d.netlify.app/)
   
 🇺🇸
 # Codo a Codo || Python
 
 ## **Akuma 3D web**
   - Akuma 3D it's a small business in the resin 3d printing world. In this web, you can access the product galery, you can ask for prices, ask for a high resolution fast prototyping and much more!
-  - Deploy: TBA
+  - Deploy: [akuma3d](https://akuma3d.netlify.app/)
   
 
 <br>  
