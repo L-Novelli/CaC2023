@@ -204,6 +204,7 @@ nav {
     justify-content:center;
     display: flex;
     box-shadow: 1px 2px 15px 2px #0000;
+    margin-left: 10%;
   }
   #signup-form input[type="comment"] {
     height:200px;
@@ -230,6 +231,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 48%;
+
 
 
   }
