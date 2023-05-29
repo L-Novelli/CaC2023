@@ -129,11 +129,10 @@ nav {
 
 blockquote {
     display: block;
-    margin-block-start: 1em;
+    position: relative;
+    margin-block-start: 8rem;
     margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-    max-width: 500px;
+    max-width: 300px;
 }
 
 .texto{
