@@ -82,6 +82,7 @@ nav {
     font-family: 'Acme', sans-serif;
     background-color: #ED3942;
     margin-top: 20px;
+    text-align: center;
 
   }
 
@@ -139,8 +140,8 @@ nav {
   }
   
   .socicon {
-    width: 2rem;
-    height: 2rem;
+    width: 2.7rem;
+    height: 2.7rem;
     margin: 20px;
     background-color:#ED3942;
   }
@@ -152,7 +153,7 @@ nav {
     z-index: 1;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 3.5rem;
+    padding: 0.8rem 3.5rem;
     background-color: #ED3942;
    }
 

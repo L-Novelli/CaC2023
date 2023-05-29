@@ -49,6 +49,83 @@
     -webkit-box-align: center;
     font-size: 14px;
 }
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: black;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Acme', sans-serif;
+    font-size: larger;
+  }
+
+  nav img {
+    height: 7rem;
+    width: 7rem;
+    margin: 0%;
+  }
+  nav h1 {
+    color:black;
+    font-family: 'Lobster', cursive;
+    background-color:  black;
+  }
+  
+  nav a {
+    color: #F3C8B8;
+    transition: 0.3s;
+    background-color: black;
+  }
+  nav a:hover {
+    color: #ED3942;
+    border-bottom: rgba(125, 40, 165, 100);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+    background-color: black;
+  }
+  
+  nav ul li {
+    font-weight: 700;
+  }
+  .sociales {
+    flex-direction: row;
+    text-align: center;
+    bottom: 50%;
+    margin: 2rem 6rem 0;
+    padding: 1.25rem;
+    position: relative;
+    background-color:#ED3942;
+  }
+  
+  .socicon {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin: 20px;
+    background-color:#ED3942;
+  }
+  
+
+  footer {
+    text-align: center;
+    text-decoration: solid;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3.5rem;
+    background-color: #ED3942;
+   }
+
+  a{
+    background-color:#ED3942;
+  }
 
 blockquote {
     display: block;
