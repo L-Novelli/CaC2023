@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Estilos CSS -->
-    <link rel="stylesheet" href="/css/quienes_somos.css" />
+    <link rel="stylesheet" href="quienes_somos.css" />
 
     <!-- Favicons -->
     <link
@@ -43,7 +43,10 @@
       
      
      <!-- icono -->
-      <link rel="icon" href="/img/icono_nav.PNG" type="image/x-icon">
+      <link rel="icon" href="icono_nav.PNG" type="image/x-icon">
+
+      <!-- github y linkedin icono -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
   
 
@@ -52,19 +55,19 @@
     <!-- Barra de Navegación -->
     <header>
        <nav>
-        <img src="/img/logo.jpeg" alt="Logo Akuma">
+        <img src="logo.jpeg" alt="Logo Akuma">
         <ul class="navegacion">
-          <li><a href="/templates/Inicio.html" class="nav-link">Inicio</a></li>
-          <li><a href="/templates/quienes_somos.html" class="nav-link">Quienes somos</a></li>
-          <li><a href="/templates/trabajos.html" class="nav-link">Nuestros trabajos</a></li>
-          <li><a href="/templates/form2.html" class="nav-link">Contacto</a></li>
+            <li><a href="/templates/Inicio.html" class="nav-link">Inicio</a></li>
+            <li><a href="quienes_somos.html" class="nav-link">Quienes somos</a></li>
+            <li><a href="#Nuestros trabajos" class="nav-link">Nuestros trabajos</a></li>
+            <li><a href="/templates/form2.html" class="nav-link">Contacto</a></li>
           </ul>
        </nav>
 
     
 
     </header>
-    <!-- Sección Quienes somos  -->
+    <!-- Sección Quienes somos -->
     <main>
       <section class="grid_container">
         <div class="box1">
@@ -86,75 +89,83 @@
          
         </div>
         <div class="box4">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo repellendus blanditiis asperiores eveniet, placeat, modi voluptate accusamus 
+            architecto excepturi deserunt neque a perferendis eius non eligendi inventore reiciendis accusantium veniam.</p>
         
           <div id="map">
               <!-- Ubicacion del mapa -->
           </div>
         </div>
+      </section>
         <div class="box5">
           <h2>Nosotros</h2>
         </div>
-        <div class="box6">
-            <h3>Lauti</h3>
-            <img class="icono_man" src="/img/icono man.png" alt="Icono Lauti">
+      
+        <div class="gap">
+          <div class="box6 card">
+             <img  class="icono_man" src="icono man.png" alt="Icono Lauti">
+              <p>Python dev. Estudiante de Ciencia de la Computacion y Data Science.</p>
+              <div class="link">
+                <a class="github_linke"  href="https://github.com/L-Novelli/"><i class="bi bi-github"></i></a>
+                <a class="github_linke"  href="https://github.com/L-Novelli/"><i class="bi bi-linkedin"></i></a>
+              </div>
+              
+          </div>
+          <div class="box7 card">
+            <h3>Romi</h3>
+            <img class="icono_m" src="icono mujer.png" alt="Icono Romi">
+            <p>Contadora Pública y estudiante Codo a Codo Full Stack Python y Big Data.</p>
+            <div class="link">
+              <a class="github_linke"  href="https://github.com/RominaAnta"><i class="bi bi-github"></i></a>
+              <a class="github_linke"  href="https://github.com/RominaAnta"><i class="bi bi-linkedin"></i></a>
+            </div>
+            
+          </div>
+          <div class="box8 card">
+            <h3>Noah</h3>
+            <a href="https://github.com/noahcassutti">
+            <img  class="icono_man" src="icono man.png" alt="Icono Noah">
+            <p>Estudiante de ingenieria en sistemas y de desarro web y aplicaciones, en capacacitacion constante por medio de cursos y diplomaturas</p>
+            <div class="link">
+              <a class="github_linke"  href="https://github.com/noahcassutti"><i class="bi bi-github"></i></a>
+              <a class="github_linke"  href="https://github.com/noahcassutti"><i class="bi bi-linkedin"></i></a>
+            </div>
+            
+            
+          </div>
+          <div class="box9 card">
+            <h3>Flor</h3>
+            <img class="icono_m" src="icono mujer.png" alt="Icono Flor">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum libero voluptatem quod ullam nulla dolorum delectus.
-               Quaerat voluptates inventore modi sit, sint vitae optio quia quibusdam impedit velit maxime! Unde?</p>
-        </div>
-        <div class="box7">
-          <h3>Romi</h3>
-          <img class="icono_m" src="/img/icono mujer.png" alt="Icono Romi">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum libero voluptatem quod ullam nulla dolorum delectus.
              Quaerat voluptates inventore modi sit, sint vitae optio quia quibusdam impedit velit maxime! Unde?</p>
+            <div class="link">
+              <a class="github_linke"  href="https://github.com/hidalgoflorencia"><i class="bi bi-github"></i></a>
+              <a class="github_linke"  href="https://github.com/hidalgoflorencia"><i class="bi bi-linkedin"></i></a>
+            </div>
+            
         </div>
-        <div class="box8">
-         <h3>Noah</h3>
-         <img  class="icono_man" src="/img/icono man.png" alt="Icono Noah">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum libero voluptatem quod ullam nulla dolorum delectus.
-           Quaerat voluptates inventore modi sit, sint vitae optio quia quibusdam impedit velit maxime! Unde?</p>
       </div>
-      <div class="box9">
-        <h3>Flor</h3>
-        <img class="icono_m" src="/img/icono mujer.png" alt="Icono Flor">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum libero voluptatem quod ullam nulla dolorum delectus.
-         Quaerat voluptates inventore modi sit, sint vitae optio quia quibusdam impedit velit maxime! Unde?</p>
-      </div>
-        
-
-        <!-- <div class="container">
-         
-          <div class="box">1</div>
-          <div class="box">2</div>
-          <div class="box">3</div>
-          <div class="box">4</div>
-        </div> -->
-      </section> 
+     
     </main>
      <!--    JavaScript    -->
-     <script src="/js/api.js"></script>
+     <script src="api.js"></script>
      <!-- API Goolge Maps -->
      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj1hLz6XVA0yyKQO1yeofk87myift0264&callback=initMap"></script>
-     
-     
-      
-      
-     
-      <!--  <h2 class="ubicacion">¿En donde estamos ubicados?</h2> -->
-
 
 
      <!-- Sección de redes sociales -->
-     <footer>
-      <div class="sociales">
-          <a href="https://www.facebook.com/" target="_blank"
-            ><img src="/img/facebook.png" alt="Facebook" loading="lazy" class="socicon"/></a>
-          <a href="https://www.instagram.com/akuma.ar/" target="_blank"
-            ><img src="/img/instagram.png" alt="Instagram" loading="lazy" class="socicon"/></a>
-          <a href="https://www.linkedin.com/in/l-novelli/" target="_blank"
-            ><img src="/img/linkedin.png" alt="Linkedin" loading="lazy" class="socicon"/></a>
-          <a href="https://github.com/L-Novelli/CaC2023" target="_blank"
-            ><img src="/img/github.png" alt="Github" class="socicon"/></a>
-  
-        
+    <footer>
+    <div class="sociales">
+        <a href="#" target="_blank"
+          ><img src="facebook.png" alt="Facebook" loading="lazy" class="socicon"/></a>
+        <a href="#" target="_blank"
+          ><img src="instagram.png" alt="Instagram" loading="lazy" class="socicon"/></a>
+        <a href="https://www.instagram.com/akuma.ar/" target="_blank"
+          ><img src="linkedin.png" alt="Linkedin" loading="lazy" class="socicon"/></a>
+        <a href="#" target="_blank"
+          ><img src="github.png" alt="Github" class="socicon"/></a>
+
+      
       </footer>
 
   </body>
