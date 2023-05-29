@@ -164,8 +164,7 @@ nav {
   }
 
   .box6{
-      /* grid-column: 1/2;
-      grid-row: 4/5; */
+      
       padding: 5rem;
       background-color: #da555c;
       
@@ -173,22 +172,19 @@ nav {
   }
 
   .box7{
-      /* grid-column: 2/3;
-      grid-row: 4/5; */
+      
       padding: 5rem;
       background-color: #989191;
      
   }
   .box8{
-      /* grid-column: 3/4;
-      grid-row: 4/5; */
+     
       padding: 5rem;
       background-color: #da555c;
 
   }
   .box9{
-      /* grid-column: 4/5;
-      grid-row: 4/5 ; */
+      
       padding: 5rem;
       background-color: #989191;
 
