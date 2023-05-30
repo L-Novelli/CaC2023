@@ -29,7 +29,7 @@
 ## Devs:
 <details alt="Lautaro Novelli">
 </a><a href="https://www.linkedin.com/in/l-novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>
-</a><a href="https://github.com/L-Novelli/"><img align="center" width="40px" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg"/>
+</a><a href="https://github.com/L-Novelli/"><img align="center" width="40px" src="[https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg](https://pngimg.com/d/github_PNG63.png)"/>
   
 </details>
 
