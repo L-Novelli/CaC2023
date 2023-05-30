@@ -34,9 +34,12 @@
   
 </details>
 
+  ### Romina Antagli
+<details>
+  </a><a href="https://www.linkedin.com/in/romina-antagli-8690b4a/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>
+</a><a href="https://github.com/RominaAnta"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
 
-#### | [LinkedIn | Romina Antagli](https://www.linkedin.com/in/romina-antagli-8690b4a/) | 
-#### | [GitHub | Romina Antagli](https://github.com/RominaAnta) |
+  </details>
 
 #### | [LinkedIn | Noah Cassuti](https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/) | 
 #### | [GitHub | Noah Cassuti](https://github.com/noahcassutti) |
