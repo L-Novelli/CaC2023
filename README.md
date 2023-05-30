@@ -32,9 +32,9 @@
 </a><a href="https://www.linkedin.com/in/l-novelli/"> <img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /> </a>
 </a><a href="https://github.com/L-Novelli/"> <img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a>
   
-- Developed the contact form using JavaScript, HTML and CSS
-- Contributed with the team in tweaks and debuging
-- Made the README
+- Developed the contact form using JavaScript, HTML and CSS.
+- Contributed with the team in tweaks and debuging.
+- README.
   
 </details>
   
@@ -45,8 +45,8 @@
 </a><a href="https://www.linkedin.com/in/romina-antagli-8690b4a/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /> </a>
 </a><a href="https://github.com/RominaAnta"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a>
 
-- Desarrollo home page usando JavaScript, HTML y CSS con una integracion de iFrames
-- Contributed with the team in tweaks and debuging
+- Desarrollo home page usando JavaScript, HTML y CSS con una integracion de iFrames.
+- Contributed with the team in tweaks and debuging.
 
   </details>
   
@@ -57,8 +57,8 @@
 </a><a href="https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /> </a>
 </a><a href="https://github.com/noahcassutti"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a>
 
-- API integration
-- Contributed with the team in tweaks and debuging
+- API integration.
+- Contributed with the team in tweaks and debuging.
   
   </details>
   
@@ -70,7 +70,6 @@
 </a><a href="(https://github.com/hidalgoflorencia"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a>
 
 - Desarrollo de la pagina de presentacion de trabajos, utilizando varias implementaciones como un Carrousel usando JavaScript(queryselector), HTML y CSS, filtrado de imagenes con HTML y CSS.
-- Contributed with the team in tweaks and debuging
+- Contributed with the team in tweaks and debuging.
 
   </details>
-
