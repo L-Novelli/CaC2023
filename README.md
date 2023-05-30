@@ -27,9 +27,9 @@
 
 
 ## Devs:
-<details>
-#### | [LinkedIn | Lautaro Novelli](https://www.linkedin.com/in/l-novelli/) | 
-#### | [GitHub | Lautaro Novelli](https://github.com/L-Novelli/) |
+<details "Lautaro Novelli">
+[LinkedIn | Lautaro Novelli](https://www.linkedin.com/in/l-novelli/) | 
+[GitHub | Lautaro Novelli](https://github.com/L-Novelli/) |
   
 </details>
 
