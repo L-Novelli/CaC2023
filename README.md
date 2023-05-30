@@ -29,8 +29,8 @@
 # Devs:
  ### Lautaro E. Novelli
 <details>
-</a><a href="https://www.linkedin.com/in/l-novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
-</a><a href="https://github.com/L-Novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+</a><a href="https://www.linkedin.com/in/l-novelli/"> <img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /> </a>
+</a><a href="https://github.com/L-Novelli/"> <img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a>
   
 - Developed the contact form using JavaScript, HTML and CSS
 - Contributed with the team in tweaks and debuging
