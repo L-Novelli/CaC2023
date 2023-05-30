@@ -57,8 +57,9 @@
 </a><a href="https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /> </a>
 </a><a href="https://github.com/noahcassutti"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a>
 
-- About Us page using HTML, JavaScript and CSS.
-- API integration.
+- Utilizo tecnologías en la página de quienes somos, como por ejemplo: HTML, CSS, JS, GRID, FLEXBOX y otras más.
+- Desarrollo la api de Google maps en mi página. 
+- Separe en cajas con grid cada sector para luego colocar cada cosa.
 - Contributed with the team in tweaks and debuging.
   
   </details>
