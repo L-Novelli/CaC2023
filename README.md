@@ -27,10 +27,12 @@
 
 
 ## Devs:
-
-### BackEnd | FrontEnd
+<details>
 #### | [LinkedIn | Lautaro Novelli](https://www.linkedin.com/in/l-novelli/) | 
 #### | [GitHub | Lautaro Novelli](https://github.com/L-Novelli/) |
+  
+</details>
+
 
 #### | [LinkedIn | Romina Antagli](https://www.linkedin.com/in/romina-antagli-8690b4a/) | 
 #### | [GitHub | Romina Antagli](https://github.com/RominaAnta) |
