@@ -28,8 +28,7 @@
 
 ## Devs:
 <details alt="Lautaro Novelli">
-[LinkedIn | Lautaro Novelli](https://www.linkedin.com/in/l-novelli/) | 
-[GitHub | Lautaro Novelli](https://github.com/L-Novelli/) |
+</a><a href="https://www.linkedin.com/in/l-novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>[GitHub | Lautaro Novelli](https://github.com/L-Novelli/) |
   
 </details>
 
