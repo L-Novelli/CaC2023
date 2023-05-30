@@ -32,8 +32,8 @@
 </a><a href="https://www.linkedin.com/in/l-novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
 </a><a href="https://github.com/L-Novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
   
- <p "Developed the contact form using JavaScript, HTML and CSS" /p>
- <p "Contributed with the team in tweaks and debuging" /p>
+### Developed the contact form using JavaScript, HTML and CSS
+### Contributed with the team in tweaks and debuging
   
 </details>
 
@@ -42,7 +42,7 @@
 </a><a href="https://www.linkedin.com/in/romina-antagli-8690b4a/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>
 </a><a href="https://github.com/RominaAnta"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
 
-    Contributed with the team in tweaks and debuging.
+### Contributed with the team in tweaks and debuging
 
   </details>
   
@@ -51,7 +51,7 @@
 </a><a href="https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>
 </a><a href="https://github.com/noahcassutti"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
 
-    Contributed with the team in tweaks and debuging.
+### Contributed with the team in tweaks and debuging
 
   </details>
   
@@ -61,7 +61,7 @@
 </a><a href="(https://github.com/hidalgoflorencia"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
 
   
-    Contributed with the team in tweaks and debuging.
+### Contributed with the team in tweaks and debuging
 
   </details>
 
