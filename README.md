@@ -34,6 +34,7 @@
   
 ### Developed the contact form using JavaScript, HTML and CSS
 ### Contributed with the team in tweaks and debuging
+### Made the README
   
 </details>
   
