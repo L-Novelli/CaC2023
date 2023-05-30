@@ -45,6 +45,7 @@
 </a><a href="https://www.linkedin.com/in/romina-antagli-8690b4a/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /> </a>
 </a><a href="https://github.com/RominaAnta"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a>
 
+- Developed the home page using JavaScript, HTML and CSS with an integration of iFrames
 - Contributed with the team in tweaks and debuging
 
   </details>
