@@ -28,7 +28,8 @@
 
 ## Devs:
 <details alt="Lautaro Novelli">
-</a><a href="https://www.linkedin.com/in/l-novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>[GitHub | Lautaro Novelli](https://github.com/L-Novelli/) |
+</a><a href="https://www.linkedin.com/in/l-novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>
+</a><a href="https://github.com/L-Novelli/"><img align="center" width="40px" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg"/>
   
 </details>
 
