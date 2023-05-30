@@ -36,6 +36,8 @@
 ### Contributed with the team in tweaks and debuging
   
 </details>
+  
+  ---
 
 ### Romina Antagli
 <details>
@@ -46,6 +48,8 @@
 
   </details>
   
+  ---
+  
 ### Noah Cassuti
 <details>
 </a><a href="https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>
@@ -54,6 +58,8 @@
 ### Contributed with the team in tweaks and debuging
 
   </details>
+  
+  ---
   
 ###  Florencia B. Hidalgo
 <details>
