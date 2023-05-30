@@ -69,7 +69,7 @@
 </a><a href="https://www.linkedin.com/in/hidalgoflorenciabelen"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /> </a>
 </a><a href="(https://github.com/hidalgoflorencia"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a>
 
-- Desarrollo de la pagina de presentacion de trabajos, utilizando varias implementaciones como un Carrousel usando JavaScript(queryselector), HTML y CSS, filtrado de imagenes con HTML y CSS.
+- Desarrollo de la pagina de presentacion de trabajos, utilizando varias implementaciones como un Carousel usando JavaScript(queryselector), HTML y CSS, filtrado de imagenes con HTML y CSS.
 - Contributed with the team in tweaks and debuging.
 
   </details>
