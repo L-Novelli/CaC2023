@@ -32,9 +32,9 @@
 </a><a href="https://www.linkedin.com/in/l-novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"/>
 </a><a href="https://github.com/L-Novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
   
-  Developed the contact form using JavaScript, HTML and CSS
+ ### Developed the contact form using JavaScript, HTML and CSS
   
-  Contributed with the team in tweaks and debuging
+ ### Contributed with the team in tweaks and debuging
   
 </details>
 
