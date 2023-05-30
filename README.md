@@ -33,6 +33,7 @@
 </a><a href="https://github.com/L-Novelli/"><img align="center" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
   
  <p> Developed the contact form using JavaScript, HTML and CSS
+   
      Contributed with the team in tweaks and debuging
   </p>
   
