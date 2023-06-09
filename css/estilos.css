@@ -54,12 +54,12 @@ nav {
   }
   
   nav a {
-    color: #F3C8B8;
+    color: #B3B8C8;
     transition: 0.3s;
     background-color: black;
   }
   nav a:hover {
-    color: #ED3942;
+    color: #F3C8B8;
     border-bottom: rgba(125, 40, 165, 100);
   }
   
@@ -79,9 +79,9 @@ nav {
   }
 
   h3  {
-    font-size: x-large;
-    font-family: 'Acme', sans-serif;
-    background-color: #ED3942;
+    font-size: large;
+    font-family: 'PT Serif', serif;
+    background-color:  #B3B8C8;
     margin-top: 20px;
     text-align: center;
 
@@ -101,7 +101,7 @@ nav {
     height: 20rem;
     width: 30rem;
     border-radius: 6px;
-    box-shadow: 1px 2px 15px 2px #ED3942;
+    box-shadow: 1px 2px 15px 2px #0b0b0b;
     background-color:  #B3B8C8;
     margin: 15px  
   }
@@ -110,7 +110,7 @@ nav {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
-    box-shadow: 1px 2px 15px 2px #ED3942;
+    box-shadow: 1px 2px 15px 2px #0b0b0b;
     background-color:  #B3B8C8;
   }
   
@@ -173,7 +173,7 @@ nav {
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 1px 2px 15px 2px #ED3942;
+    box-shadow: 1px 2px 15px 2px #0b0b0b;
     flex-direction: row;
     text-align: center;
     padding: 1.25rem;

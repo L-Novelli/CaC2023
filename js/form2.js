@@ -6,9 +6,5 @@ form.addEventListener('submit', (event) => {
   const email = form.elements.email.value;
   const comment = form.elements.comment.value;
   
-
-  console.log(name, email, comment);
-  
-
   form.reset();
 });
