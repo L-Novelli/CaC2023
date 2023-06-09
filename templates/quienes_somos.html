@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -43,7 +44,7 @@
       
      
      <!-- icono -->
-      <link rel="icon" href="/img/icono_nav.PNG" type="image/x-icon">
+      <link rel="icon" href="/img/logo.png" type="image/x-icon">
 
       <!-- github y linkedin icono -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -55,21 +56,18 @@
     <!-- Barra de Navegación -->
     <header>
        <nav>
-        <img src="/img/logo.jpeg" alt="Logo Akuma">
+        <img src="/img/logo.png" alt="Logo Akuma">
         <ul class="navegacion">
             <li><a href="/templates/Inicio.html" class="nav-link">Inicio</a></li>
             <li><a href="/templates/quienes_somos.html" class="nav-link">Quienes somos</a></li>
             <li><a href="/templates/trabajos.html" class="nav-link">Nuestros trabajos</a></li>
             <li><a href="/templates/form2.html" class="nav-link">Contacto</a></li>
-          </ul>
+        </ul>
        </nav>
-
-    
-
     </header>
     <!-- Sección Quienes somos -->
     <main>
-      <section class="grid_container">
+      <section class="intro-container">
         <div class="box1">
           <h2 class="presentacion">¡Bienvenido a nuestra página web de impresiones 3D en Argentina!</h2>
         </div>
@@ -96,65 +94,58 @@
           </div>
         </div>
       </section>
-        <div class="box5">
-          <h2>Nosotros</h2>
-        </div>
-      
-        <div class="gap">
+      <section>
+        <h2 class="nosotros">Nosotros</h2>
+        <div class="cartas-container">
           <div class="box6 card">
             <h3>Lauta</h3>
-             <img  class="icono_man" src="/img/icono man.png" alt="Icono Lauti">
-              <p>Python dev. Estudiante de Ciencia de la Computacion y Data Science.</p>
-              <div class="link">
-                <a class="github_linke"  href="https://github.com/L-Novelli/"><i class="bi bi-github"></i></a>
-                <a class="github_linke"  href="https://github.com/L-Novelli/"><i class="bi bi-linkedin"></i></a>
-              </div>
-              
+            <img  class="icono" src="/img/icono man.png" alt="Icono Lauti">
+            <p>Python dev. Estudiante de Ciencia de la Computacion y Data Science.</p>
+            <div class="link">
+              <a class="github_linke"  href="https://github.com/L-Novelli/"><i class="bi bi-github"></i></a>
+              <a class="github_linke"  href="https://github.com/L-Novelli/"><i class="bi bi-linkedin"></i></a>
+            </div>
           </div>
-          <div class="box7 card">
+          <div class="box7">
             <h3>Romi</h3>
-            <img class="icono_m" src="/img/icono mujer.png" alt="Icono Romi">
+            <img class="icono" src="/img/icono mujer.png" alt="Icono Romi">
             <p>Contadora Pública y estudiante Codo a Codo Full Stack Python y Big Data.</p>
             <div class="link">
               <a class="github_linke"  href="https://github.com/RominaAnta"><i class="bi bi-github"></i></a>
               <a class="github_linke"  href="https://github.com/RominaAnta"><i class="bi bi-linkedin"></i></a>
             </div>
-            
           </div>
-          <div class="box8 card">
+          <div class="box8">
             <h3>Noah</h3>
-            <a href="https://github.com/noahcassutti">
-            <img  class="icono_man" src="/img/icono man.png" alt="Icono Noah">
-            <p>Estudiante de ingenieria en sistemas y de desarro web y aplicaciones, en capacacitacion constante por medio de cursos y diplomaturas</p>
+            <img  class="icono" src="/img/icono man.png" alt="Icono Noah">
+            <p>Estudiante de ingenieria en sistemas y de desarrollo web y aplicaciones, en capacacitacion constante por medio de cursos y diplomaturas</p>
             <div class="link">
               <a class="github_linke"  href="https://github.com/noahcassutti"><i class="bi bi-github"></i></a>
               <a class="github_linke"  href="https://github.com/noahcassutti"><i class="bi bi-linkedin"></i></a>
             </div>
-            
-            
           </div>
-          <div class="box9 card">
+          <div class="box9">
             <h3>Flor</h3>
-            <img class="icono_m" src="/img/icono mujer.png" alt="Icono Flor">
+            <img class="icono" src="/img/icono mujer.png" alt="Icono Flor">
             <p>Ingeniera hidraulica, especialista en analisis de datos y estudiante de python full stack en CaC</p>
             <div class="link">
               <a class="github_linke"  href="https://github.com/hidalgoflorencia"><i class="bi bi-github"></i></a>
               <a class="github_linke"  href="https://github.com/hidalgoflorencia"><i class="bi bi-linkedin"></i></a>
             </div>
-            
+          </div>
         </div>
-      </div>
-     
-    </main>
-     <!--    JavaScript    -->
-     <script src="/js/api.js"></script>
-     <!-- API Goolge Maps -->
-     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj1hLz6XVA0yyKQO1yeofk87myift0264&callback=initMap"></script>
+      </section>  
+  </main>
+
+    <!--    JavaScript    -->
+    <script src="/api.js"></script>
+    <!-- API Goolge Maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj1hLz6XVA0yyKQO1yeofk87myift0264&callback=initMap"></script>
 
 
      <!-- Sección de redes sociales -->
     <footer>
-    <div class="sociales">
+      <div class="sociales">
         <a href="#" target="_blank"
           ><img src="/img/facebook.png" alt="Facebook" loading="lazy" class="socicon"/></a>
         <a href="#" target="_blank"
@@ -163,9 +154,7 @@
           ><img src="/img/linkedin.png" alt="Linkedin" loading="lazy" class="socicon"/></a>
         <a href="#" target="_blank"
           ><img src="/img/github.png " alt="Github" class="socicon"/></a>
-
-      
-      </footer>
-
+      </div>
+    </footer>
   </body>
 </html>
