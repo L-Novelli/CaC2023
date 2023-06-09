@@ -1,14 +1,93 @@
-*{
-    background-color: #0f0409;
+/* --------------CSS Resets------------ */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Acme', sans-serif;
-    
- }
-
- body{
+  }
+  
+  /* --------------GENERALES---------------- */
+  
+  body {
+    font-family: 'PT Serif', serif;
+    /* agregamos para que sea responsive */
+    width: 100%;
+    background-color: #58585A;
     margin: 0px;
-    display: grid;
- }
+     }
+  
+  header {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  body {
+      font-family: 'PT Serif', serif;
+  }
+  
+  nav {
+    /* cambios en el nav */
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      font-family: 'Acme', sans-serif;
+      font-size: larger;
+  }
+  
+  .navegacion {
+    list-style-type: none;
+  } 
+  .nav-link {
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    color: white;
+  }
+  nav img {
+    height: 100px;
+    width: 100px;
+  }
+  nav h1 {
+    color:black;
+    font-family: 'Lobster', cursive;
+    background-color:  black;
+  }
+  
+  nav a {
+    color: #F3C8B8;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    border-bottom: rgba(125, 40, 165, 100);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    background-color: black;
+  }
+  
+  nav ul li {
+    font-weight: 700;
+  } 
+  
 
  main{
     justify-content: center;
@@ -19,25 +98,7 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
-.menu{
-    position: sticky;
-    top: 0px;
-    border-bottom: 1px solid red;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 3fr;
-    background-color: #0f0409;
-    color: red;
-    text-align: center;
-    box-sizing: border-box;
-    z-index: 4;
-}
-
-.logo{
-    padding-left: 0px;
-    padding: 3px;
-    cursor: pointer;
-}
+ 
 
 .paginas{
     display: grid;
@@ -49,88 +110,53 @@
     -webkit-box-align: center;
     font-size: 14px;
 }
-nav {
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 3.5rem;
-    background-color: black;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    font-family: 'Acme', sans-serif;
-    font-size: larger;
-  }
+@media screen and (max-width:700px){
 
-  nav img {
-    height: 7rem;
-    width: 7rem;
-    margin: 0%;
+     nav{
+      flex-direction: column;
+      padding-bottom: 40px;
+      font-size: 15px;
+    }
+
+  .bio p {
+    line-height: 1.7rem;
+    padding: 0.3rem 0;
+    font-size: medium; 
   }
-  nav h1 {
-    color:black;
-    font-family: 'Lobster', cursive;
-    background-color:  black;
-  }
-  
-  nav a {
-    color: #F3C8B8;
-    transition: 0.3s;
-    background-color: black;
-  }
-  nav a:hover {
-    color: #ED3942;
-    border-bottom: rgba(125, 40, 165, 100);
-  }
-  
-  nav ul {
-    display: flex;
-    gap: 1.9rem;
-    background-color: black;
-  }
-  
-  nav ul li {
-    font-weight: 700;
+  .h3-galeria{
+    height: 10px;
+    background-color: red;
+    line-height: 5px;
+    padding: 0 50px;
+    color: #0f0409;
+    border-radius: 5px;
+    font-size: small;
+}
+
+}
+
+
+
+     /* cambios en el footer */
+footer {
+    width: 100%;
+    background-color: #ED3942;
   }
   .sociales {
-    flex-direction: row;
-    text-align: center;
-    bottom: 50%;
-    margin: 2rem 6rem 0;
-    padding: 1.25rem;
-    position: relative;
-    background-color:#ED3942;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
   }
-  
   .socicon {
-    width: 2.7rem;
-    height: 2.7rem;
-    margin: 20px;
-    background-color:#ED3942;
-  }
-  
-
-  footer {
-    text-align: center;
-    text-decoration: solid;
-    z-index: 1;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 3.5rem;
-    background-color: #ED3942;
-   }
-
-  a{
-    background-color:#ED3942;
+    width: 30px;
+    height: 30px;
   }
 
 blockquote {
     display: block;
-    position: relative;
-    margin-block-start: 8rem;
+    position: flex;
+    margin-block-start: 1rem;
     margin-block-end: 1em;
     max-width: 300px;
 }
@@ -144,8 +170,8 @@ blockquote {
 }
 
 .p{
-    color: red;
-    background-color: #0f0409;
+    color: black;
+    background-color: #58585A;
     padding: 16px;
     outline: currentcolor solid 1px;
     display: grid;
@@ -174,19 +200,9 @@ section h3 {
     text-align: center;
     justify-content: center;
     letter-spacing: 1px;
-    color: red;
+    color: black;
 }
 
-/* body{
-    margin: 0;
-    padding: 0;
-    font-family: system-ui, sans-serif;
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    background-color: #0f0409;
-} */
 
 h4, h2, small, a {
     margin: 0;
@@ -199,7 +215,7 @@ a {
 }
 
 .carousel {
-    /* height: 100vh; */
+
     width: 100%;
     align-items: center;
 
@@ -207,7 +223,7 @@ a {
 
 @media(min-width:768px) {
     .carousel{
-        margin: 0px 60px;
+        margin: 0px 20px;
     }
 }
 
@@ -263,9 +279,9 @@ a {
 }
 
 .carrusel h4 small {
-    font-size: 15px;
+    font-size: 12px;
     display: block;
-    color: #0f0409;
+    color: black;
 }
 
 .carrusel a img {
@@ -281,9 +297,7 @@ a {
     .carousel{
         width: 250px;
     }
-    /* .carousel a img {
-        width: 230px;
-    } */
+
 }
 
 .carrusel-arrow {
@@ -306,7 +320,7 @@ a {
 .carrusel-arrow svg {
     width: 12px;
     height: 100%;
-    color: gray;
+    color: #0f0409;
 }
 
 .carrusel-prev {
@@ -352,18 +366,17 @@ input{
 }
 
 label{
-    display: inline-block;
-    height: 100%;
-    margin: 0 20px;
-    line-height: 60px;
-    font-size: 18px;
-    color: red;
+    display: flex;
+    margin: 0 10px;
+    line-height: 30px;
+    font-size: medium;
+    color: #B3B8C8;
     cursor: pointer;
     transition: color .5s;
 }
 
 label:hover{
-    color: lightgray;
+    color: #F3C8B8;
 }
 
 .galeria-fotos{
@@ -515,28 +528,11 @@ label:hover{
 
 }
 
-/* Fin section galeria de imagenes */
 
 
-/* Inicio footer */
 
-/* footer{
-    margin: 0;
-    padding: 40px;
-    box-sizing: border-box;
-    font-weight: 400;
-    background-color: #0f0409;
-}
 
-footer .social{
-    text-align: center;
-    padding-bottom: 25px;
-    color: red;
-}
 
-.social{
-    height: 20px;
-} */
 
 
 
