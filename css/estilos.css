@@ -1,12 +1,23 @@
-html {
-  scroll-behavior: smooth;
-}
-
-/* CSS Resets */
+/* --------------CSS Resets------------ */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* --------------GENERALES---------------- */
+
+body {
+  font-family: 'PT Serif', serif;
+  /* agregamos para que sea responsive */
+  width: 100%;
+  background-color: #58585A;
+}
+header {
+  width: 100%;
+}
+section {
+  width: 100%;
 }
 
 ul {
@@ -27,58 +38,59 @@ body {
 }
 
 nav {
-    position: fixed;
+  /* cambios en el nav */
     width: 100%;
-    z-index: 9999;
-    top: 0;
-    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 3.5rem;
     background-color: black;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     font-family: 'Acme', sans-serif;
     font-size: larger;
-  }
+}
 
-  nav img {
-    height: 7rem;
-    width: 7rem;
-    margin: 0%;
-  }
-  nav h1 {
-    color:black;
-    font-family: 'Lobster', cursive;
-    background-color:  black;
-  }
-  
-  nav a {
-    color: #B3B8C8;
-    transition: 0.3s;
-    background-color: black;
-  }
-  nav a:hover {
-    color: #F3C8B8;
-    border-bottom: rgba(125, 40, 165, 100);
-  }
-  
-  nav ul {
-    display: flex;
-    gap: 1.9rem;
-    background-color: black;
-  }
-  
-  nav ul li {
-    font-weight: 700;
-  }
+.navegacion {
+  list-style-type: none;
+} 
+.nav-link {
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: white;
+}
+nav img {
+  height: 100px;
+  width: 100px;
+}
+nav h1 {
+  color:black;
+  font-family: 'Lobster', cursive;
+  background-color:  black;
+}
 
-  main {
-    margin-top: 150px;
+nav a {
+  color: #F3C8B8;
+  transition: 0.3s;
+}
+nav a:hover {
+  border-bottom: rgba(125, 40, 165, 100);
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  background-color: black;
+}
+
+nav ul li {
+  font-weight: 700;
+} 
+
+main {
     background-color: #58585A;
   }
 
-  h3  {
+ h3  {
     font-size: large;
     font-family: 'PT Serif', serif;
     background-color:  #B3B8C8;
@@ -87,7 +99,7 @@ nav {
 
   }
 
-  .hero {
+.hero {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +109,7 @@ nav {
     
   }
 
-  .hero img {
+.hero img {
     height: 20rem;
     width: 30rem;
     border-radius: 6px;
@@ -110,7 +122,7 @@ nav {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
-    box-shadow: 1px 2px 15px 2px #0b0b0b;
+    box-shadow: 1px 2px 15px 2px black;
     background-color:  #B3B8C8;
   }
   
@@ -130,50 +142,20 @@ nav {
     background-color:  #B3B8C8;
   }
 
-  .sociales {
-    flex-direction: row;
-    text-align: center;
-    bottom: 50%;
-    margin: 2rem 6rem 0;
-    padding: 1.25rem;
-    position: relative;
-    background-color:#ED3942;
-  }
-  
-  .socicon {
-    width: 2.7rem;
-    height: 2.7rem;
-    margin: 20px;
-    background-color:#ED3942;
-  }
-  
-
-  footer {
-    text-align: center;
-    text-decoration: solid;
-    z-index: 1;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.8rem 3.5rem;
-    background-color: #ED3942;
-   }
-
-  a{
-    background-color:#ED3942;
-  }
-
   .container{
     width: 100%;
     display: flex;
     max-width: 1100px;
     height: 500px;
-   }
+    background-color: #58585A;
+     
+  }
   .card{
     width: 100%;
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 1px 2px 15px 2px #0b0b0b;
+    box-shadow: 1px 2px 15px 2px black;
     flex-direction: row;
     text-align: center;
     padding: 1.25rem;
@@ -185,16 +167,26 @@ nav {
    .container .card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-    
-   }
-@media only screen and (max-width: 600px) {
-    nav{
-      font-size: small;
-    }
 
-    footer{
-      padding: 0.8rem 0rem; 
-    }
+   }
+
+    /* cambios en el footer */
+footer {
+  width: 100%;
+  background-color: #ED3942;
+}
+.sociales {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+}
+.socicon {
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
 
     .hero {
       display: flex;
@@ -215,7 +207,7 @@ nav {
       width: 10rem;
       padding: 0.625rem;
       border-radius: 6px;
-      box-shadow: 1px 2px 15px 2px #ED3942;
+      box-shadow: 1px 2px 15px 2px black;
    
     }
     
@@ -237,18 +229,13 @@ nav {
       font-size: x-small; 
     }
 
-    nav img {
-      height: 3.5rem;
-      width: 3.5rem;
-      align-items: center;
-    } 
     
     h3  {
       margin-top: 20px;
       margin-block-end: 20px;
       font-size: medium;
       font-family: 'Acme', sans-serif;
-      background-color: #ED3942;
+      background-color: #B3B8C8;
      }
      .container{
       width: 100%;
@@ -268,15 +255,12 @@ nav {
 
      }
   
-
-
- @media only screen and (min-width: 768px) {
-
-  nav img {
-    height: 7rem;
-    width: 7rem;
-    align-items: center;
-  } 
+  @media screen and (max-width:700px){
+    nav{
+      flex-direction: column;
+      padding-bottom: 40px;
+      font-size: 15px;
+    }
 
   .bio p {
     line-height: 1.7rem;
@@ -306,10 +290,5 @@ nav {
     background-color:#ED3942;
   }
 
-  nav img {
-    height: 7rem;
-    width: 7rem;
-    align-items: center;
-  } 
 }
 }
