@@ -50,6 +50,7 @@
       font-family: 'Acme', sans-serif;
       font-size: larger;
       padding-right: 25px;
+      padding-left: 20px;
   }
   
   .navegacion {
@@ -126,7 +127,7 @@
   }
   .h3-galeria{
     height: 10px;
-    background-color: red;
+    background-color: #ED3942;
     line-height: 5px;
     padding: 0 50px;
     color: #0f0409;
@@ -322,7 +323,7 @@ a {
 .carrusel-arrow svg {
     width: 12px;
     height: 100%;
-    color: #0f0409;
+    color: grey;
 }
 
 .carrusel-prev {
@@ -360,7 +361,7 @@ input{
 
 .h3-galeria{
     height: 100%;
-    background-color: red;
+    background-color: #ED3942;
     line-height: 60px;
     padding: 0 50px;
     color: #0f0409;
