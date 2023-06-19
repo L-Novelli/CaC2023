@@ -49,6 +49,7 @@
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
       font-family: 'Acme', sans-serif;
       font-size: larger;
+      padding-right: 25px;
   }
   
   .navegacion {
@@ -201,6 +202,7 @@ section h3 {
     justify-content: center;
     letter-spacing: 1px;
     color: black;
+    padding-bottom: 15px;
 }
 
 
